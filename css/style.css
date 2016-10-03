@@ -1,0 +1,114 @@
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Parisienne|Prata);
+
+.about-me {
+  width: 250px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/greyzz.png);
+  border: 2px solid blue;
+  outline: 5px solid blue;
+  outline-offset: 10px;
+  padding: 1em;
+  margin: 35px; /* added to offset from Codepen edge */
+}
+
+
+.about-me h2 {
+  font-family: 'Parisienne', sans-serif;
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+  color: blue;
+  text-shadow: 1px 1px 0px rgba(0,0,0, .2);
+}
+
+.about-me img {
+  border: 5px solid pink;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px gray;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-me p {
+  text-align: justify;
+  line-height: 1.5;
+  font-family: 'Prata', serif;
+}
+
+
+/* estilos detalle*/
+$text: #303336;
+$light-text: #8c98a8;
+$button: #49B956;
+$button-hover: #60CF6F;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.product-box {
+  font: 13px/23px "Raleway", Arial, sans-serif;
+  color: $text;  
+  padding: 40px 0;
+  
+}
+
+
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+  height: 465px;
+  background: white;
+  border-radius: 3px;
+  position: relative
+}
+
+.price {
+  position: absolute;
+  top: 180px;
+  left: 35%;
+  color: white;
+  text-align: center;
+  background: rgba(0,153,285,0.8);
+  border-radius: 50%;
+  padding: 19px 33px;
+  font-size: 22px;
+  
+  div {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+}
+
+.information {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.store {
+  font-size: 16px;
+  color: $light-text;
+  margin-bottom: 28px;
+}
+
+.button {
+  text-decoration: none;
+  background: $button;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 54px;
+  border-radius: 5px;
+  
+  &:hover {
+    background: $button-hover;
+  }
+
+
+
